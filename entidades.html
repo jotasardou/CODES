@@ -6,30 +6,37 @@
     <title>Entidades</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header class="head-entidades">
         <h1 class="h1-entidades">Entidades</h1>
-        <figure>
-            <img class="img-group" src="img/group.png" alt="Ícone geral das entidades">
-        </figure>
+        <button onclick="functionVoltaPagina()" class="back-arrow">
+            <img src="img/seta-esquerda.png" width="25" alt="Back">
+        </button>
     </header>
     <main class="main-entidades">
         <ul class="ul-financas">
             <li class="li-financas">
-                <img class="img-financas" src= "img/dollar.png" alt="Imagem com nome e logo da entidade de finanças">
+                <a href="financas.html">
+                    <img class="img-financas" src= "img/dollar.png" alt="Imagem com nome e logo da entidade de finanças">
+                </a>
                 <h2 class="h2-financas">Finanças</h2>
             </li>
         </ul>
         <ul class="ul-acoessociais">
             <li class="li-acoessociais">
-                <a href="acoes_sociais.html"><img class="img-acoessociais" src= "img/2.png" alt="Imagem com nome e logo da entidade de ações sociais"></a>
+                <a href="acoes_sociais.html">
+                    <img class="img-acoessociais" src= "img/2.png" alt="Imagem com nome e logo da entidade de ações sociais">
+                </a>
                 <h2 class="h2-acoessociais">Ações Sociais</h2>
             </li>
         </ul>
         <ul class="ul-tech">
             <li class="li-tech">
-                <img class="img-tech" src= "img/laptop.png" alt="Imagem com nome e logo da entidade de tecnologia">
+                <a href="tech.html">
+                    <img class="img-tech" src= "img/laptop.png" alt="Imagem com nome e logo da entidade de tecnologia">
+                </a>
                 <h2 class="h2-tech">Tech</h2>
             </li>
         </ul>
