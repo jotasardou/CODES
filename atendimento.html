@@ -7,25 +7,26 @@
     <title>Atendimento</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script3.js"></script>
 </head>
 
 <body>
     <header class="head-atendimento">
         <h1 class="h1-atendimento">Atendimento</h1>
-        <figure><img class="img-relogio" src="img/relógio.png" alt="Relógio"></figure>
-        <h2 class="h2-atendimento">Das 08:00 às 19:00</h2>
+
         <button onclick="functionVoltaPagina()" class="back-arrow">
             <img src="img/seta-esquerda.png" width="25" alt="Back">
         </button>
     </header>
     <main class="main-atendimento">
         <ul class="ul-atendimento">
-            <li class="li-atendimento">
-                <figure> <img class="img-aviso" src="img/aviso.png" alt="Imagem de alerta"></figure>
-                <h2> Não constam Pendências</h2>
-            </li>
+
         </ul>
+        <select class="lista-faculdade" onchange="exibeFaculdade()">
+            <option value="" >Análise de Pêndencias</option>
+          </select>
+          <span class="selecionada"></span>
     </main>
 
     <footer class="pe-configuracoes">

@@ -32,7 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
       listaFaculdadeElement.appendChild(option);
     });
   }
+  
   exibeLista();
+  
   })
   
   
